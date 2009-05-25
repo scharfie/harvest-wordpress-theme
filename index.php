@@ -6,6 +6,15 @@
 
 get_header(); ?>
 
+<?php if (is_home()): ?>
+<div id="featured">
+  <h2><em>Where you will always have a place in our Field</em></h2>
+  <p>You will find that our passion is to be a place where God can change lives. Our doors are wide open to people from all walks of life, regardless of where they are on their spiritual journey. Harvest is a church that anyone can attend.</p>
+  <p>We believe that God wants us to be the kind of church written about in the Bible, where the lost can be rescued and discover a new way of life. He wants us to equip His people and to send them out to reach the lost. Our goal is to reach outside these four walls and into our community with one act of kindness at a time. We believe that by showing Christ's love in tangible ways, lost people will be drawn to Him.</p>
+  <p>So, regardless of where you may be on your journey, you can find a home here at Harvest, "Where you will always have a place in our Field."</p>
+</div>  
+<?php endif; ?>
+
 	<div id="content" class="narrowcolumn">
 
 	<?php if (have_posts()) : ?>

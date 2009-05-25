@@ -62,6 +62,23 @@ body {
   font: normal 1.2em Trebuchet MS;
 }
 
+#featured {
+  background: url(images/boxbg.gif) repeat-x top left;
+  background: #F9F8E8;
+  background: #F7F4DD;
+  background: #FCFBF3;
+  padding: 5px 30px;
+/*  margin: 0 15px;*/
+  border: solid 5px #F7F4DD;
+  border-width: 5px 0;
+  color: #000;
+}
+
+#featured h2 {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
 #menu
 {
 position: relative;
@@ -101,15 +118,14 @@ color: #824507;
 }
 
 
-#footer
-{
-position: relative;
-clear: both;
-padding-top: 2.0em;
-background: #fff url('images/boxbg.gif') repeat-x 0 bottom;
-font-size: 0.8em;
-border-top: solid 1px #F7F4DD;
-/*color: #965008;*/
+#footer {
+  position: relative;
+  clear: both;
+  padding-top: 2.0em;
+  background: #fff url('images/boxbg.gif') repeat-x 0 bottom;
+  font-size: 0.8em;
+  border-top: solid 1px #F7F4DD;
+  /*color: #965008;*/
 }
 
 #footer .left
